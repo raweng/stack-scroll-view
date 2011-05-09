@@ -1,0 +1,52 @@
+Sliding-Panel Like Twitter iPad App
+=======
+
+Sliding-Panel project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
+Note: this project is only for iPad under xcode version 3.2.5
+
+Sliding-Panel is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises main three classes, RootViewController,MenuViewController and SlideViewController.
+
+Sliding-Panel supports : 
+
+- Orientation (both Landscape & Portrait)
+
+- Swipe Gestures
+
+[![](http://farm6.static.flickr.com/5027/5702558111_f122930337_b.jpg)](http://farm6.static.flickr.com/5027/5702558111_f122930337_b.jpg)
+[![](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg)](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg) 
+[![](http://farm3.static.flickr.com/2352/5702551281_2de9ec82c7_b.jpg)](http://farm3.static.flickr.com/2352/5702551281_2de9ec82c7_b.jpg)
+[![](http://farm4.static.flickr.com/3238/5703122950_d0a341bf74_b.jpg)](http://farm4.static.flickr.com/3238/5703122950_d0a341bf74_b.jpg)
+
+Help
+=========
+
+If you would like to ask any questions regarding Sliding-Panel, please check out any of the following:
+
+* [raw engineering][]
+* [raw engineering Blog][]
+* [Nikhil Jain @ raw engineering][nikhil.jain@raweng.com]
+* [Reefaq Mohammed @ raw engineering][reefaq.mohammed@raweng.com]
+
+Installation 
+==============================
+
+Add RootViewController,MenuViewController and SlideViewController files to your Xcode project.
+
+
+Getting Started
+==============================
+
+SlideViewController is a main content area, to add view in SlideViewController you need to add your controller object in its method named 
+- (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isSlideStartView:(BOOL)atFirstPosition;
+
+parameter: 
+- controller : object of a controller whose view should be added
+- invokeByController:  object of a controller from where it has been invoked
+- atFirstPosition : 	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in Sliding-Panel will be removed)
+			set this to FALSE/NO if you need to place this controller's view in Slide hierarchy
+
+
+
+
+[raw engineering]:http://www.raweng.com
+[raw engineering Blog]:http://www.raweng.com/blog/
