@@ -2,9 +2,10 @@ Sliding-Panel Like Twitter iPad App
 ============================================================
 
 Sliding-Panel project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
+
 Note: this project is only for iPad under xcode version 3.2.5
 
-Sliding-Panel is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises main three classes, RootViewController,MenuViewController and SlideViewController.
+Sliding-Panel is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises of three classes, RootViewController,MenuViewController and SlideViewController.
 
 Sliding-Panel supports : 
 
@@ -24,9 +25,6 @@ If you would like to ask any questions regarding Sliding-Panel, please check out
 
 * [raw engineering][]
 * [raw engineering Blog][]
-* [Nikhil Jain @ raw engineering][]
-* [Reefaq Mohammed @ raw engineering][]
-
 
 Installation 
 ==============================
@@ -54,5 +52,3 @@ parameter:
 
 [raw engineering]:http://www.raweng.com
 [raw engineering Blog]:http://www.raweng.com/blog/
-[Nikhil Jain @ raw engineering]:mailto:nikhil.jain@raweng.com
-[Reefaq Mohammed @ raw engineering]:mailto:reefaq.mohammed@raweng.com
