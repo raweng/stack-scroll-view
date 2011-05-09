@@ -22,7 +22,7 @@
 	UIView* viewAtRightAtTouchBegan;
 	UIView* viewAtLeftAtTouchBegan;
 	
-	NSMutableArray* viewControlersStack;
+	NSMutableArray* viewControllersStack;
 	
 	NSString* dragDirection;
 
@@ -37,13 +37,13 @@
 	
 }
 
-- (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isSlideStartView:(BOOL)atFirstPosition;
+- (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isSlideStartView:(BOOL)isSlideStartView;
 - (void)bounceBack:(NSString*)animationID finished:(NSNumber*)finished context:(void*)context;
 
 @property (nonatomic, retain) UIView* slideViews;
 @property (nonatomic, retain) UIView* borderViews;
 @property (nonatomic, assign) CGFloat slideStartPosition;
-@property (nonatomic, assign) NSMutableArray* viewControlersStack;
+@property (nonatomic, assign) NSMutableArray* viewControllersStack;
 
 
 @end

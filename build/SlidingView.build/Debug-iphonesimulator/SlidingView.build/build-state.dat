@@ -1,22 +1,21 @@
 TSlidingView
 v7
 r0
-t326612876.548770
+t326632941.555876
 cCheck dependencies
-cProcessInfoPlistFile /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app/Info.plist SlidingView-Info.plist
-cCompileXIB /Users/nikhil/Desktop/Reefaq/SlidingView/MainWindow.xib
+cProcessInfoPlistFile "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/Info.plist" SlidingView-Info.plist
+cCompileXIB "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/MainWindow.xib"
 cCpResource build/Debug-iphonesimulator/SlidingView.app/backgroundImage_repeat.png backgroundImage_repeat.png
-cProcessPCH /var/folders/24/24Mm55tgER4dsoVZaxvlSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-dugkwknhekkqqufpydanfeywvxha/SlidingView_Prefix.pch.gch SlidingView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o /Users/nikhil/Desktop/Reefaq/SlidingView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlidingViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/MenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/DataViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/UIViewWithShadow.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView normal i386
-cGenerateDSYMFile /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app.dSYM /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView
-cTouch /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView" normal i386
+cGenerateDSYMFile "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app.dSYM" "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView"
+cTouch "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004DAE7B260000000000000110
@@ -110,16 +109,16 @@ i"MenuViewController.h"
 i"SlideViewController.h"
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.h
-c000000004DC79F4000000000000004F4
-t1304928064
-s1268
+c000000004DC7D1BD00000000000004F7
+t1304940989
+s1271
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m
-c000000004DC79F40000000000000A328
-t1304928064
-s41768
+c000000004DC7CE6B000000000000A33D
+t1304940139
+s41789
 i"SlideViewController.h"
 i"UIViewWithShadow.h"
 
@@ -167,11 +166,11 @@ t1304926941
 s130048
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app
-t1304926941
+t1304940141
 s238
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app.dSYM
-t1304926941
+t1304940141
 s102
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/Info.plist
@@ -187,45 +186,45 @@ t1304926941
 s8
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView
-t1304926941
-s116692
+t1304940141
+s116116
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/backgroundImage_repeat.png
 t1304926941
 s130048
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o
-t1304926941
-s58280
+t1304940141
+s59500
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o
-t1304926941
-s62372
+t1304940141
+s61936
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o
-t1304926941
-s55864
+t1304940141
+s55788
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o
-t1304926941
-s161664
+t1304940141
+s162344
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingView.LinkFileList
-c000000004DC79ADD00000000000003F3
-t1304926941
-s1011
+c000000004DC7CE6C000000000000040F
+t1304940140
+s1039
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o
-t1304926941
-s53308
+t1304940141
+s53316
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o
-t1304926941
-s41752
+t1304940141
+s41760
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o
-t1304926941
-s6308
+t1304940141
+s6316
 
 N/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m
 c000000004DC79F400000000000000166
@@ -619,7 +618,7 @@ s1189
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies326612875#326612876#0(0"0(0#1#0"8674842112#0"0#
+lSLF07#2@18"Check dependencies326632940#326632940#0(0"0(0#1#0"8668420928#0"0#
 
 CCompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o /Users/nikhil/Desktop/Reefaq/SlidingView/Classes/DataViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s326612488.286123
@@ -3125,28 +3124,118 @@ xbackgroundImage_repeat.png
 lSLF07#2@31"Copy backgroundImage_repeat.png325315727#325315727#0(0"0(0#0#67"/Users/nikhil/Desktop/Reefaq/SlidingView/backgroundImage_repeat.png8618046496#494"    cd /Users/nikhil/Desktop/Reefaq/SlidingView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nikhil/Desktop/Reefaq/SlidingView/backgroundImage_repeat.png /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.590077
+e326632941.202511
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1814] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1814] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@99"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m326632940#326632941#0(198"distcc[1814] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1814] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#73"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m8670597408#2261"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/DataViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/DataViewController.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.588621
+e326632941.223922
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1812] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1812] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@99"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m326632940#326632941#0(198"distcc[1812] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1812] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#73"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m8647051520#2261"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/MenuViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/MenuViewController.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.584972
+e326632941.219475
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1805] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1805] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@99"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m326632940#326632941#0(198"distcc[1805] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1805] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#73"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m8667096576#2261"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/RootViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/RootViewController.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.586138
+e326632941.506628
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1808] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1808] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@100"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m326632940#326632941#0(198"distcc[1808] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1808] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#74"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m8658540960#2263"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlideViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlideViewController.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.584001
+e326632941.179727
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1804] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1804] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@103"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m326632940#326632941#0(198"distcc[1804] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1804] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#77"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m8668180608#2269"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/SlidingViewAppDelegate.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingViewAppDelegate.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632941.124176
+e326632941.431444
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1864] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1864] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@97"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m326632941#326632941#0(198"distcc[1864] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1864] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#71"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m8670390272#2257"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/Classes/UIViewWithShadow.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/UIViewWithShadow.o"0#
 
 CDistributed-CompileC build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s326632940.583042
+e326632941.124027
+r1
+xDistributed-CompileC
+xbuild/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[1803] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[1803] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@77"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m326632940#326632941#0(198"distcc[1803] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[1803] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#51"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m8666738144#2225"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/SlidingView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/main.m" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/main.o"0#
 
 CGenerateDSYMFile "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app.dSYM" "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView"
-r0
+s326632941.533464
+e326632941.553676
+r1
+xGenerateDSYMFile
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app.dSYM
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/SlidingView.app.dSYM build/Debug-iphonesimulator/SlidingView.app/SlidingView326632941#326632941#0(0"0(0#0#100"/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView8666794880#419"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView" -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app.dSYM"0#
 
 CGenerateDSYMFile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator/SlidingView.app.dSYM" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView"
 r0
@@ -3161,7 +3250,14 @@ x/Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingVie
 lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/SlidingView.app.dSYM build/Debug-iphonesimulator/SlidingView.app/SlidingView326612876#326612876#0(0"0(0#0#96"/Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView8677571712#401"    cd /Users/nikhil/Desktop/Reefaq/SlidingView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView -o /Users/nikhil/Desktop/Reefaq/SlidingView/build/Debug-iphonesimulator/SlidingView.app.dSYM0#
 
 CLd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView" normal i386
-r0
+s326632941.506747
+e326632941.533350
+r1
+xLd
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView
+xnormal
+xi386
+lSLF07#2@105"Link /Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView326632941#326632941#0(0"0(0#0#0"8667255104#982"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" "-F/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator" -filelist "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/Objects-normal/i386/SlidingView.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework QuartzCore -framework CoreGraphics -o "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app/SlidingView"0#
 
 CLd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator/SlidingView.app/SlidingView" normal i386
 r0
@@ -3231,7 +3327,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@33"Precompile SlidingView_Prefix.pch320245648#320245649#0(0"0(0#0#93"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView_Prefix.pch8762636320#2222"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources/i386" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Debug-iphonesimulator/SlidingView.build/DerivedSources" -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView_Prefix.pch" -o /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-exnpzbhykumlsieybjprbthnisil/SlidingView_Prefix.pch.gch0#
 
 CTouch "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app"
-r0
+s326632941.553772
+e326632941.555849
+r1
+xTouch
+x/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app
+lSLF07#2@94"Touch /Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app326632941#326632941#0(0"0(0#0#0"8666583488#298"    cd "/Users/Reefaq Mohammed/Desktop/Sliding-Panel"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Reefaq Mohammed/Desktop/Sliding-Panel/build/Debug-iphonesimulator/SlidingView.app"0#
 
 CTouch "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Debug-iphonesimulator/SlidingView.app"
 r0
