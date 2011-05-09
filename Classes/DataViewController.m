@@ -7,7 +7,7 @@
 //
 
 #import "DataViewController.h"
-#import "SlidingViewAppDelegate.h"
+#import "StackScrollViewAppDelegate.h"
 #import "UIViewWithShadow.h"
 #import "RootViewController.h"
 #import "SlideViewController.h"
@@ -95,7 +95,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     DataViewController *dataViewController = [[DataViewController alloc] initWithFrame:CGRectMake(0, 0, 477, self.view.frame.size.height)];
-	[[SlidingViewAppDelegate instance].rootViewController.slideViewController addViewInSlider:dataViewController invokeByController:self isSlideStartView:FALSE];
+	[[StackScrollViewAppDelegate instance].rootViewController.slideViewController addViewInSlider:dataViewController invokeByController:self isSlideStartView:FALSE];
 }
 
 
