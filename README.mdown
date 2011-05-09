@@ -1,17 +1,19 @@
-Sliding-Panel Like Twitter iPad App
+StackScrollView Like Twitter iPad App
 ============================================================
 
-Sliding-Panel project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
+StackScrollView project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
 
 Note: this project is only for iPad under xcode version 3.2.5
 
-Sliding-Panel is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises of three classes, RootViewController,MenuViewController and SlideViewController.
+StackScrollView is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises of three classes, RootViewController,MenuViewController and StackScrollViewController.
 
-Sliding-Panel supports : 
+StackScrollView supports : 
 
 - Orientation (both Landscape & Portrait)
 
 - Swipe Gestures
+
+- Bouncing Effect
 
 [![](http://farm6.static.flickr.com/5027/5702558111_f122930337_b.jpg)](http://farm6.static.flickr.com/5027/5702558111_f122930337_b.jpg)
 [![](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg)](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg) 
@@ -21,7 +23,7 @@ Sliding-Panel supports :
 Help
 =========
 
-If you would like to ask any questions regarding Sliding-Panel, please check out any of the following:
+If you would like to ask any questions regarding StackScrollView, please check out any of the following:
 
 * [raw engineering][]
 * [raw engineering Blog][]
@@ -29,15 +31,15 @@ If you would like to ask any questions regarding Sliding-Panel, please check out
 Installation 
 ==============================
 
-Add RootViewController,MenuViewController and SlideViewController files to your Xcode project.
+Add RootViewController,MenuViewController and StackScrollViewController files to your Xcode project.
 
 
 Getting Started
 ==============================
 
-SlideViewController is a main content area, to add view in SlideViewController you need to add your controller object in its method named 
+StackScrollViewController is a main content area, to add view in StackScrollViewController you need to add your controller object in its method named 
 
-- (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isSlideStartView:(BOOL)isSlideStartView;
+- (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isStackStartView:(BOOL)isStackStartView;
 
 parameter: 
 
@@ -45,7 +47,7 @@ parameter:
 
 - invokeByController:  object of a controller from where it has been invoked
 
-- isSlideStartView :	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in Sliding-Panel will be removed), set this to FALSE/NO if you need to place this controller's view in Slide hierarchy
+- isStackStartView :	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in view stack will be removed), set this to FALSE/NO if you need to place this controller's view in stack hierarchy
 
 
 

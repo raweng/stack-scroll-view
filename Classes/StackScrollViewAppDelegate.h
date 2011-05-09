@@ -1,6 +1,6 @@
 //
-//  SlidingViewAppDelegate.h
-//  SlidingView
+//  StackScrollViewAppDelegate.h
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.
@@ -10,15 +10,15 @@
 
 @class RootViewController;
 
-@interface SlidingViewAppDelegate : NSObject <UIApplicationDelegate> {
+@interface StackScrollViewAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	RootViewController *rootViewController;
 }
 
-+ (SlidingViewAppDelegate *) instance;
++ (StackScrollViewAppDelegate *) instance;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet RootViewController *rootViewController;
+@property (nonatomic, retain) RootViewController *rootViewController;
 
 @end
 

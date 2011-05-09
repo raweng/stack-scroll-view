@@ -1,22 +1,22 @@
 //
-//  SlidingViewAppDelegate.m
-//  SlidingView
+//  StackScrollViewAppDelegate.m
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.
 //
 
-#import "SlidingViewAppDelegate.h"
+#import "StackScrollViewAppDelegate.h"
 #import "RootViewController.h"
-@implementation SlidingViewAppDelegate
+@implementation StackScrollViewAppDelegate
 
 @synthesize window;
 @synthesize rootViewController;
 
 
 
-+ (SlidingViewAppDelegate *) instance {
-	return (SlidingViewAppDelegate *) [[UIApplication sharedApplication] delegate];
++ (StackScrollViewAppDelegate *) instance {
+	return (StackScrollViewAppDelegate *) [[UIApplication sharedApplication] delegate];
 }
 
 

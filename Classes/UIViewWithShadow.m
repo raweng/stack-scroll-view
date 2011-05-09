@@ -1,6 +1,6 @@
 //
 //  UIView+Extention.m
-//  SlidingView
+//  StackScrollView
 //
 //  Created by Reefaq on 2/25/11.
 //  Copyright 2011 raw engineering . All rights reserved.
