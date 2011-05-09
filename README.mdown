@@ -1,9 +1,9 @@
 StackScrollView Like Twitter iPad App
 ============================================================
 
-StackScrollView project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
+StackScrollView project is a demo app for creating view like twitter app for ipad, created by the mobile development team at [raw engineering][].
 
-Note: this project is only for iPad under xcode version 3.2.5
+Note: this project is only for iPad under Xcode version 3.2.5
 
 StackScrollView is a simple way to present a sliding view interface similar to Twitter's iPad App. It comprises of three classes, RootViewController,MenuViewController and StackScrollViewController.
 
@@ -19,14 +19,6 @@ StackScrollView supports :
 [![](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg)](http://farm3.static.flickr.com/2268/5703108996_27ee68a5ff_b.jpg) 
 [![](http://farm3.static.flickr.com/2352/5702551281_2de9ec82c7_b.jpg)](http://farm3.static.flickr.com/2352/5702551281_2de9ec82c7_b.jpg)
 [![](http://farm4.static.flickr.com/3238/5703122950_d0a341bf74_b.jpg)](http://farm4.static.flickr.com/3238/5703122950_d0a341bf74_b.jpg)
-
-Help
-=========
-
-If you would like to ask any questions regarding StackScrollView, please check out any of the following:
-
-* [raw engineering][]
-* [raw engineering Blog][]
 
 Installation 
 ==============================
@@ -49,8 +41,14 @@ parameter:
 
 - isStackStartView :	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in view stack will be removed), set this to FALSE/NO if you need to place this controller's view in stack hierarchy
 
+Help
+=========
+
+Please submit your questions to the blog link provided below:
+
+* [raw engineering blog][]
 
 
 
 [raw engineering]:http://www.raweng.com
-[raw engineering Blog]:http://www.raweng.com/blog/
+[raw engineering blog]:http://www.raweng.com/blog/stack-scroll-view/
