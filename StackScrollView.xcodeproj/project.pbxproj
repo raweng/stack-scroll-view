@@ -14,7 +14,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		C12A8A50131776B500E7CA88 /* UIViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A8A4F131776B500E7CA88 /* UIViewWithShadow.m */; };
 		C1842AEF1316641600D1538C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AEE1316641600D1538C /* RootViewController.m */; };
-		C1842AF51316646A00D1538C /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AF41316646A00D1538C /* SlideViewController.m */; };
+		C1842AF51316646A00D1538C /* StackScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AF41316646A00D1538C /* StackScrollViewController.m */; };
 		C1842AF9131664DD00D1538C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AF8131664DD00D1538C /* MenuViewController.m */; };
 		C1842CED13168FE900D1538C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1842CEC13168FE900D1538C /* QuartzCore.framework */; };
 		C1842D0D1316903C00D1538C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1842D0C1316903C00D1538C /* CoreGraphics.framework */; };
@@ -36,8 +36,8 @@
 		C12A8A4F131776B500E7CA88 /* UIViewWithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewWithShadow.m; sourceTree = "<group>"; };
 		C1842AED1316641600D1538C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		C1842AEE1316641600D1538C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		C1842AF31316646A00D1538C /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
-		C1842AF41316646A00D1538C /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		C1842AF31316646A00D1538C /* StackScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackScrollViewController.h; sourceTree = "<group>"; };
+		C1842AF41316646A00D1538C /* StackScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackScrollViewController.m; sourceTree = "<group>"; };
 		C1842AF7131664DD00D1538C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C1842AF8131664DD00D1538C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C1842CEC13168FE900D1538C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -70,8 +70,8 @@
 				1D3623250D0F684500981E51 /* StackScrollViewAppDelegate.m */,
 				C1842AED1316641600D1538C /* RootViewController.h */,
 				C1842AEE1316641600D1538C /* RootViewController.m */,
-				C1842AF31316646A00D1538C /* SlideViewController.h */,
-				C1842AF41316646A00D1538C /* SlideViewController.m */,
+				C1842AF31316646A00D1538C /* StackScrollViewController.h */,
+				C1842AF41316646A00D1538C /* StackScrollViewController.m */,
 				C1842AF7131664DD00D1538C /* MenuViewController.h */,
 				C1842AF8131664DD00D1538C /* MenuViewController.m */,
 				C1842D8A131699CA00D1538C /* DataViewController.h */,
@@ -203,7 +203,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* StackScrollViewAppDelegate.m in Sources */,
 				C1842AEF1316641600D1538C /* RootViewController.m in Sources */,
-				C1842AF51316646A00D1538C /* SlideViewController.m in Sources */,
+				C1842AF51316646A00D1538C /* StackScrollViewController.m in Sources */,
 				C1842AF9131664DD00D1538C /* MenuViewController.m in Sources */,
 				C1842D8C131699CA00D1538C /* DataViewController.m in Sources */,
 				C12A8A50131776B500E7CA88 /* UIViewWithShadow.m in Sources */,

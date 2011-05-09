@@ -1,6 +1,6 @@
 //
-//  SlidingViewAppDelegate.m
-//  SlidingView
+//  StackScrollViewAppDelegate.m
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.

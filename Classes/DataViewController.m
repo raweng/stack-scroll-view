@@ -1,6 +1,6 @@
 //
 //  DataViewController.m
-//  SlidingView
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.
@@ -10,7 +10,7 @@
 #import "StackScrollViewAppDelegate.h"
 #import "UIViewWithShadow.h"
 #import "RootViewController.h"
-#import "SlideViewController.h"
+#import "StackScrollViewController.h"
 
 @implementation DataViewController
 @synthesize tableView = _tableView;
@@ -95,7 +95,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     DataViewController *dataViewController = [[DataViewController alloc] initWithFrame:CGRectMake(0, 0, 477, self.view.frame.size.height)];
-	[[StackScrollViewAppDelegate instance].rootViewController.slideViewController addViewInSlider:dataViewController invokeByController:self isSlideStartView:FALSE];
+	[[StackScrollViewAppDelegate instance].rootViewController.stackScrollViewController addViewInSlider:dataViewController invokeByController:self isStackStartView:FALSE];
 }
 
 
