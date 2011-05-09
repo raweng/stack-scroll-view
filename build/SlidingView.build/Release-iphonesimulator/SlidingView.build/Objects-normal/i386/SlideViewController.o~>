@@ -1,0 +1,6 @@
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m: In function '-[SlideViewController handlePanFrom:]':
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m:418: warning: 'UIView' may not respond to '-indexPathForSelectedRow'
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m:418: warning: (Messages without a matching method signature
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m:418: warning: will be assumed to return 'id' and accept
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m:418: warning: '...' as arguments.)
+/Users/nikhil/Desktop/Reefaq/SlidingView/Classes/SlideViewController.m:420: warning: 'UIView' may not respond to '-reloadRowsAtIndexPaths:withRowAnimation:'

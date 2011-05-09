@@ -1,0 +1,482 @@
+TSlidingView
+v7
+r0
+t320327360.542625
+cCheck dependencies
+cCpResource build/Release-iphoneos/SlidingView.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/Info.plist" SlidingView-Info.plist
+cCompileXIB "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib"
+cProcessPCH /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch.gch SlidingView_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/main.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingViewAppDelegate.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/RootViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DetailViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/MenuViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DataViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/UIViewWithShadow.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView" normal armv7
+cGenerateDSYMFile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app.dSYM" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView"
+cProcessProductPackaging "/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision"
+cTouch "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent"
+cCodeSign "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+cValidate "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.h
+c000000004D677E2D00000000000000E9
+t1298628141
+s233
+i<UIKit/UIKit.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m
+c000000004D6796D000000000000015A8
+t1298634448
+s5544
+i"DataViewController.h"
+i"SlidingViewAppDelegate.h"
+i"UIViewWithShadow.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.h
+c000000004D673CE8000000000000065D
+t1298611432
+s1629
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m
+c000000004D675FF5000000000000B0B1
+t1298620405
+s45233
+i"DetailViewController.h"
+i"SlidingViewAppDelegate.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.h
+c000000004D662D5D00000000000000EA
+t1298541917
+s234
+i<UIKit/UIKit.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m
+c000000004D673BA400000000000014E1
+t1298611108
+s5345
+i"MenuViewController.h"
+i"DataViewController.h"
+i"SlidingViewAppDelegate.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.h
+c000000004D673B9F000000000000024D
+t1298611103
+s589
+i<UIKit/UIKit.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m
+c000000004D673BAA0000000000001330
+t1298611114
+s4912
+i"RootViewController.h"
+i"MenuViewController.h"
+i"DetailViewController.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.h
+c000000004D66440F0000000000000208
+t1298547727
+s520
+i<UIKit/UIKit.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m
+c000000004D66444700000000000008C4
+t1298547783
+s2244
+i"SlidingViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.h
+c000000004D677E3400000000000000FD
+t1298628148
+s253
+i<Foundation/Foundation.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m
+c000000004D67881000000000000004DF
+t1298630672
+s1247
+i"UIViewWithShadow.h"
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib
+c000000004D665A2D0000000000004ABF
+t1298553389
+s19135
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView_Prefix.pch
+c000000004D66598F00000000000000E6
+t1298553231
+s230
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app
+t1298634560
+s340
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app.dSYM
+t1298634559
+s102
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/Info.plist
+t1298634556
+s1004
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/MainWindow.nib
+t1298634556
+s988
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/PkgInfo
+t1298634556
+s8
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/ResourceRules.plist
+t1298634556
+s485
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView
+t1298634559
+s75000
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision
+t1298634559
+s10706
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DataViewController.o
+t1298634558
+s48076
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DetailViewController.o
+t1298634559
+s123048
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/MenuViewController.o
+t1298634558
+s46428
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/RootViewController.o
+t1298634558
+s51936
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingView.LinkFileList
+c000000004D67973C00000000000004AA
+t1298634556
+s1194
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingViewAppDelegate.o
+t1298634557
+s51988
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/UIViewWithShadow.o
+t1298634558
+s41112
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/main.o
+t1298634557
+s6552
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent
+t1298634560
+s428
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m
+c000000004D662A3D0000000000000166
+t1298541117
+s358
+i<UIKit/UIKit.h>
+
+N/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision
+c000000004D46DA2700000000000029D2
+t1296488999
+s10706
+
+N/var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch.gch
+t1298634557
+s10537252
+
+NSlidingView-Info.plist
+c000000004D662A3D00000000000004D6
+t1298541117
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320327356#320327356#0(0"0(0#1#0"8753463872#0"0#
+
+CCodeSign "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+s320327360.044238
+e320327360.225682
+r1
+xCodeSign
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app
+lSLF07#2@47"CodeSign build/Release-iphoneos/SlidingView.app320327360#320327360#0(0"0(0#0#109"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app8667243072#813"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Reefaq Mohammed (5LBDCX9LB4)" "--resource-rules=/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/ResourceRules.plist" --entitlements "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DataViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327358.199787
+e320327358.373930
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DataViewController.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m: In function '-[DataViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: no '-slideViewController' method found
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: (Messages without a matching method signature
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: will be assumed to return 'id' and accept
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: '...' as arguments.)
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: no '-addViewInScroller:invokeByController:withUserInfo:' method found
+lSLF07#2@107"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m320327358#320327358#0(961"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m: In function '-[DataViewController tableView:didSelectRowAtIndexPath:]':/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: no '-slideViewController' method found/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: (Messages without a matching method signature/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: will be assumed to return 'id' and accept/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: '...' as arguments.)/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m:164: warning: no '-addViewInScroller:invokeByController:withUserInfo:' method found3(22@38"No '-slideViewController' method found320327358#173#153#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m320327248#164#0#164#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320327358#326#160#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m320327248#164#0#164#0#0"0(22@69"No '-addViewInScroller:invokeByController:withUserInfo:' method found320327358#777#184#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m320327248#164#0#164#0#19"no '*' method found0(0#0#99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m8637064224#2256"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DataViewController.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DataViewController.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DetailViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327357.964281
+e320327359.444517
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DetailViewController.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m: In function '-[DetailViewController willAnimateRotationToInterfaceOrientation:duration:]':
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: (Messages without a matching method signature
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: will be assumed to return 'id' and accept
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: '...' as arguments.)
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m: At top level:
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:967: warning: incomplete implementation of class 'DetailViewController'
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:967: warning: method definition for '-setLoadingEnabled:' not found
+lSLF07#2@109"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320327357#320327359#0(1574"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m: In function '-[DetailViewController willAnimateRotationToInterfaceOrientation:duration:]':/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: (Messages without a matching method signature/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: will be assumed to return 'id' and accept/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: '...' as arguments.)/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:850: warning: no '-menuViewController' method found/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m: At top level:/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:967: warning: incomplete implementation of class 'DetailViewController'/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m:967: warning: method definition for '-setLoadingEnabled:' not found7(22@37"No '-menuViewController' method found320327358#194#154#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#850#0#850#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320327358#348#162#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#850#0#850#0#0"0(22@37"No '-menuViewController' method found320327358#805#154#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#850#0#850#0#19"no '*' method found0(22@37"No '-menuViewController' method found320327358#959#154#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#850#0#850#0#19"no '*' method found0(23@13"At top level:320327358#1113#117#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#0#0#0#0#0"0(22@57"Incomplete implementation of class 'DetailViewController'320327358#1230#174#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#967#0#967#0#38"incomplete implementation of class '*'0(22@53"Method definition for '-setLoadingEnabled:' not found320327358#1404#170#0(6@101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m320313205#967#0#967#0#35"method definition for '*' not found0(0#0#101"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m8683465248#2260"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/DetailViewController.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/DetailViewController.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/MenuViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327358.110765
+e320327358.199695
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/MenuViewController.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m: In function '-[MenuViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: no '-slideViewController' method found
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: (Messages without a matching method signature
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: will be assumed to return 'id' and accept
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: '...' as arguments.)
+o/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: no '-addViewInScroller:invokeByController:withUserInfo:' method found
+lSLF07#2@107"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m320327358#320327358#0(961"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m: In function '-[MenuViewController tableView:didSelectRowAtIndexPath:]':/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: no '-slideViewController' method found/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: (Messages without a matching method signature/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: will be assumed to return 'id' and accept/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: '...' as arguments.)/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m:154: warning: no '-addViewInScroller:invokeByController:withUserInfo:' method found3(22@38"No '-slideViewController' method found320327358#173#153#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m320303908#154#0#154#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320327358#326#160#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m320303908#154#0#154#0#0"0(22@69"No '-addViewInScroller:invokeByController:withUserInfo:' method found320327358#777#184#0(6@99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m320303908#154#0#154#0#19"no '*' method found0(0#0#99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m8643183936#2256"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/MenuViewController.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/MenuViewController.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/RootViewController.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327357.915842
+e320327358.110637
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/RootViewController.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m320327357#320327358#0(0"0(0#0#99"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m8719827808#2256"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/RootViewController.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingViewAppDelegate.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327357.804065
+e320327357.964177
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingViewAppDelegate.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m320327357#320327357#0(0"0(0#0#103"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m8606117792#2264"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/SlidingViewAppDelegate.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingViewAppDelegate.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/UIViewWithShadow.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327358.374027
+e320327358.448980
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/UIViewWithShadow.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m320327358#320327358#0(0"0(0#0#97"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m8712495680#2252"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/Classes/UIViewWithShadow.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/UIViewWithShadow.o"0#
+
+CCompileC build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/main.o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327357.800004
+e320327357.915740
+r1
+xCompileC
+xbuild/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/main.o
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m320327357#320327357#0(0"0(0#0#77"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m8636982240#2220"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/main.m" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib"
+s320327356.544951
+e320327356.895132
+r1
+xCompileXIB
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320327356#320327356#0(0"0(0#0#85"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib8612924448#650"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/MainWindow.nib" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Release-iphoneos/SlidingView.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s320327356.522137
+e320327356.538515
+r1
+xCpResource
+xbuild/Release-iphoneos/SlidingView.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist320327356#320327356#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8640188416#589"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"0#
+
+CGenerateDSYMFile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app.dSYM" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView"
+s320327359.715786
+e320327359.744734
+r1
+xGenerateDSYMFile
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app.dSYM
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/SlidingView.app.dSYM build/Release-iphoneos/SlidingView.app/SlidingView320327359#320327359#0(0"0(0#0#121"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView8637551296#480"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app.dSYM"0#
+
+CLd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView" normal armv7
+s320327359.444608
+e320327359.715567
+r1
+xLd
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView
+xnormal
+xarmv7
+lSLF07#2@126"Link /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView320327359#320327359#0(0"0(0#0#0"8719804032#1042"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" -filelist "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/Objects-normal/armv7/SlidingView.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework QuartzCore -framework CoreGraphics -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/SlidingView"0#
+
+CProcessInfoPlistFile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/Info.plist" SlidingView-Info.plist
+s320327356.523007
+e320327356.544868
+r1
+xProcessInfoPlistFile
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/Info.plist
+xSlidingView-Info.plist
+lSLF07#2@30"Process SlidingView-Info.plist320327356#320327356#0(0"0(0#0#93"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView-Info.plist8632693024#720"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SlidingView-Info.plist -genpkginfo "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/ResourceRules.plist" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/Info.plist"0#
+
+CProcessPCH /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch.gch SlidingView_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320327356.895243
+e320327357.799901
+r1
+xProcessPCH
+x/var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch.gch
+xSlidingView_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SlidingView_Prefix.pch320327356#320327357#0(0"0(0#0#93"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView_Prefix.pch8655332864#2078"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-generated-files.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-own-target-headers.hmap" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-all-target-headers.hmap" -iquote "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView-project-headers.hmap" "-F/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/include" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources/armv7" "-I/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/SlidingView_Prefix.pch" -o /var/folders/8G/8G7yvpBFF64QJiZqy6kUJE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingView_Prefix-bfkqoaklkohhenfprsmhohxrgiii/SlidingView_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision" "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision"
+s320327359.744827
+e320327359.746519
+r1
+xProcessProductPackaging
+x/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision" build/Release-iphoneos/SlidingView.app/embedded.mobileprovision320327359#320327359#0(0"0(0#0#134"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision8631874144#504"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/shiralipatel/Library/MobileDevice/Provisioning Profiles/9187E7B8-FD79-48F1-8C21-17F35C830CF4.mobileprovision" -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent"
+s320327360.017545
+e320327360.044143
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent320327360#320327360#0(0"0(0#0#147"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent8696258560#514"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/SlidingView.build/Release-iphoneos/SlidingView.build/SlidingView.xcent"0#
+
+CTouch "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+s320327359.746567
+e320327360.017433
+r1
+xTouch
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app
+lSLF07#2@115"Touch /Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app320327359#320327360#0(0"0(0#0#0"8629144128#338"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"0#
+
+CValidate "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"
+s320327360.225763
+e320327360.542584
+r1
+xValidate
+x/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app
+o2011-02-25 17:19:20.394 Validation[63103:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@47"Validate build/Release-iphoneos/SlidingView.app320327360#320327360#0(330"2011-02-25 17:19:20.394 Validation[63103:607] *** Warning: Defaulting to the standard codesign toolwarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 72x72 (-19013)Unable to validate your application. - (null)1(22@174" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 72x72 (-19013)320327360#18446744073709551615#0#0(6@0"320327360#0#0#0#0#0"0(0#0#109"/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app8634461536#447"    cd "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/shiralipatel/Desktop/reefaq/GitHuB Proj SlidingView/SlidingView/build/Release-iphoneos/SlidingView.app"0#
+
