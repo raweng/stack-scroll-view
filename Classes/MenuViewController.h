@@ -3,7 +3,7 @@
 //  SlidingView
 //
 //  Created by Reefaq on 2/24/11.
-//  Copyright 2011 Rêve Interiors . All rights reserved.
+//  Copyright 2011 raw engineering . All rights reserved.
 //
 
 #import <UIKit/UIKit.h> 
