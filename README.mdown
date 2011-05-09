@@ -1,5 +1,5 @@
 Sliding-Panel Like Twitter iPad App
-=======
+========================================
 
 Sliding-Panel project is a demo for creating view like twitter app for ipad, created by [raw engineering][] team.
 Note: this project is only for iPad under xcode version 3.2.5
@@ -24,8 +24,9 @@ If you would like to ask any questions regarding Sliding-Panel, please check out
 
 * [raw engineering][]
 * [raw engineering Blog][]
-* [Nikhil Jain @ raw engineering][nikhil.jain@raweng.com]
-* [Reefaq Mohammed @ raw engineering][reefaq.mohammed@raweng.com]
+* [Nikhil Jain @ raw engineering][]
+* [Reefaq Mohammed @ raw engineering][]
+
 
 Installation 
 ==============================
@@ -37,12 +38,17 @@ Getting Started
 ==============================
 
 SlideViewController is a main content area, to add view in SlideViewController you need to add your controller object in its method named 
+
 - (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isSlideStartView:(BOOL)atFirstPosition;
 
 parameter: 
+
 - controller : object of a controller whose view should be added
+
 - invokeByController:  object of a controller from where it has been invoked
+
 - atFirstPosition : 	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in Sliding-Panel will be removed)
+
 			set this to FALSE/NO if you need to place this controller's view in Slide hierarchy
 
 
@@ -50,3 +56,5 @@ parameter:
 
 [raw engineering]:http://www.raweng.com
 [raw engineering Blog]:http://www.raweng.com/blog/
+[Nikhil Jain @ raw engineering]:nikhil.jain@raweng.com
+[Reefaq Mohammed @ raw engineering]:reefaq.mohammed@raweng.com
