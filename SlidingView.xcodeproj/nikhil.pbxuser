@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = 3126B3251363EC8D0059A9CC /* SlidingView */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* SlidingView */;
 		codeSenseManager = 3126B32C1363ECAC0059A9CC /* Code sense */;
 		executables = (
@@ -74,23 +74,24 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326613683;
-			PBXWorkspaceStateSaveDate = 326613683;
+			PBXPerProjectTemplateStateSaveDate = 326619758;
+			PBXWorkspaceStateSaveDate = 326619758;
 		};
 		perUserProjectItems = {
-			310AC0F11376596F0040767F /* PBXTextBookmark */ = 310AC0F11376596F0040767F /* PBXTextBookmark */;
-			310AC149137662E10040767F /* PBXTextBookmark */ = 310AC149137662E10040767F /* PBXTextBookmark */;
-			310AC1EE1377B78C0040767F /* PBXTextBookmark */ = 310AC1EE1377B78C0040767F /* PBXTextBookmark */;
-			310AC1EF1377B78C0040767F /* PBXTextBookmark */ = 310AC1EF1377B78C0040767F /* PBXTextBookmark */;
-			310AC21D1377BA940040767F /* PlistBookmark */ = 310AC21D1377BA940040767F /* PlistBookmark */;
-			310AC2211377BA940040767F /* PBXTextBookmark */ = 310AC2211377BA940040767F /* PBXTextBookmark */;
-			31666F2D1377BDBE008C8EB3 /* PBXTextBookmark */ = 31666F2D1377BDBE008C8EB3 /* PBXTextBookmark */;
-			31666F361377BF00008C8EB3 /* PBXTextBookmark */ = 31666F361377BF00008C8EB3 /* PBXTextBookmark */;
-			31666F371377BF00008C8EB3 /* PBXTextBookmark */ = 31666F371377BF00008C8EB3 /* PBXTextBookmark */;
-			31666F491377C4E0008C8EB3 /* PBXTextBookmark */ = 31666F491377C4E0008C8EB3 /* PBXTextBookmark */;
-			31666F4E1377C5B6008C8EB3 /* PBXTextBookmark */ = 31666F4E1377C5B6008C8EB3 /* PBXTextBookmark */;
-			31666F4F1377C5B6008C8EB3 /* PBXTextBookmark */ = 31666F4F1377C5B6008C8EB3 /* PBXTextBookmark */;
-			31666F661377D059008C8EB3 /* PBXTextBookmark */ = 31666F661377D059008C8EB3 /* PBXTextBookmark */;
+			310AC0F11376596F0040767F = 310AC0F11376596F0040767F /* PBXTextBookmark */;
+			310AC149137662E10040767F = 310AC149137662E10040767F /* PBXTextBookmark */;
+			310AC1EE1377B78C0040767F = 310AC1EE1377B78C0040767F /* PBXTextBookmark */;
+			310AC1EF1377B78C0040767F = 310AC1EF1377B78C0040767F /* PBXTextBookmark */;
+			310AC21D1377BA940040767F = 310AC21D1377BA940040767F /* PlistBookmark */;
+			310AC2211377BA940040767F = 310AC2211377BA940040767F /* PBXTextBookmark */;
+			31666F2D1377BDBE008C8EB3 = 31666F2D1377BDBE008C8EB3 /* PBXTextBookmark */;
+			31666F361377BF00008C8EB3 = 31666F361377BF00008C8EB3 /* PBXTextBookmark */;
+			31666F371377BF00008C8EB3 = 31666F371377BF00008C8EB3 /* PBXTextBookmark */;
+			31666F491377C4E0008C8EB3 = 31666F491377C4E0008C8EB3 /* PBXTextBookmark */;
+			31666F4E1377C5B6008C8EB3 = 31666F4E1377C5B6008C8EB3 /* PBXTextBookmark */;
+			31666F4F1377C5B6008C8EB3 = 31666F4F1377C5B6008C8EB3 /* PBXTextBookmark */;
+			31666F661377D059008C8EB3 = 31666F661377D059008C8EB3 /* PBXTextBookmark */;
+			317909BA1377D28700DB1C00 /* PBXTextBookmark */ = 317909BA1377D28700DB1C00 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3126B32B1363ECAC0059A9CC /* Source Control */;
 		userBuildSettings = {
@@ -272,6 +273,16 @@
 		vrLen = 1407;
 		vrLoc = 40360;
 	};
+	317909BA1377D28700DB1C00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1842AF41316646A00D1538C /* SlideViewController.m */;
+		name = "SlideViewController.m: 823";
+		rLen = 0;
+		rLoc = 41203;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 24132;
+	};
 	32CA4F630368D1EE00C91783 /* SlidingView_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1088, 455}}";
@@ -302,9 +313,9 @@
 	};
 	C1842AF41316646A00D1538C /* SlideViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1636, 11063}}";
-			sepNavSelRange = "{40876, 0}";
-			sepNavVisRange = "{40360, 1407}";
+			sepNavIntBoundsRect = "{{0, 0}, {1608, 11063}}";
+			sepNavSelRange = "{41203, 0}";
+			sepNavVisRange = "{24132, 1937}";
 		};
 	};
 	C1842AF7131664DD00D1538C /* MenuViewController.h */ = {
