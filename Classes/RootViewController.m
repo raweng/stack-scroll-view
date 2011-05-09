@@ -1,6 +1,6 @@
     //
 //  RootView.m
-//  SlidingView
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.
@@ -10,7 +10,7 @@
 
 
 #import "MenuViewController.h"
-#import "SlideViewController.h"
+#import "StackScrollViewController.h"
 
 
 @interface UIViewExt : UIView {} 
@@ -57,7 +57,7 @@
 @end
 
 @implementation RootViewController
-@synthesize menuViewController, slideViewController;
+@synthesize menuViewController, stackScrollViewController;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
@@ -87,12 +87,12 @@
 	
 	rightSlideView = [[UIView alloc] initWithFrame:CGRectMake(leftMenuView.frame.size.width, 0, rootView.frame.size.width - leftMenuView.frame.size.width, rootView.frame.size.height)];
 	rightSlideView.autoresizingMask = UIViewAutoresizingFlexibleWidth + UIViewAutoresizingFlexibleHeight;
-	slideViewController = [[SlideViewController alloc] init];	
-	[slideViewController.view setFrame:CGRectMake(0, 0, rightSlideView.frame.size.width, rightSlideView.frame.size.height)];
-	[slideViewController.view setAutoresizingMask:UIViewAutoresizingFlexibleWidth + UIViewAutoresizingFlexibleHeight];
-	[slideViewController viewWillAppear:FALSE];
-	[slideViewController viewDidAppear:FALSE];
-	[rightSlideView addSubview:slideViewController.view];
+	stackScrollViewController = [[StackScrollViewController alloc] init];	
+	[stackScrollViewController.view setFrame:CGRectMake(0, 0, rightSlideView.frame.size.width, rightSlideView.frame.size.height)];
+	[stackScrollViewController.view setAutoresizingMask:UIViewAutoresizingFlexibleWidth + UIViewAutoresizingFlexibleHeight];
+	[stackScrollViewController viewWillAppear:FALSE];
+	[stackScrollViewController viewDidAppear:FALSE];
+	[rightSlideView addSubview:stackScrollViewController.view];
 	
 	[rootView addSubview:leftMenuView];
 	[rootView addSubview:rightSlideView];
@@ -109,12 +109,12 @@
 
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
 	[menuViewController didRotateFromInterfaceOrientation:fromInterfaceOrientation];
-	[slideViewController didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+	[stackScrollViewController didRotateFromInterfaceOrientation:fromInterfaceOrientation];
 }
 
 -(void) willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
 	[menuViewController willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
-	[slideViewController willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+	[stackScrollViewController willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
 }	
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,6 +1,6 @@
 //
 //  RootView.h
-//  SlidingView
+//  StackScrollView
 //
 //  Created by Reefaq on 2/24/11.
 //  Copyright 2011 raw engineering . All rights reserved.
@@ -10,7 +10,7 @@
 
 
 @class MenuViewController;
-@class SlideViewController;
+@class StackScrollViewController;
 
 @class UIViewExt;
 
@@ -20,12 +20,12 @@
 	UIView* rightSlideView;
 	
 	MenuViewController* menuViewController;
-	SlideViewController* slideViewController;
+	StackScrollViewController* stackScrollViewController;
 	
 }
 
 @property (nonatomic, retain) MenuViewController* menuViewController;
-@property (nonatomic, retain) SlideViewController* slideViewController;
+@property (nonatomic, retain) StackScrollViewController* stackScrollViewController;
 
 
 @end
