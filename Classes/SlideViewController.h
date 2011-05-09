@@ -22,7 +22,7 @@
 	UIView* viewAtRightAtTouchBegan;
 	UIView* viewAtLeftAtTouchBegan;
 	
-	NSMutableArray* viewControlersStack;
+	NSMutableArray* viewControllersStack;
 	
 	NSString* dragDirection;
 
@@ -43,7 +43,7 @@
 @property (nonatomic, retain) UIView* slideViews;
 @property (nonatomic, retain) UIView* borderViews;
 @property (nonatomic, assign) CGFloat slideStartPosition;
-@property (nonatomic, assign) NSMutableArray* viewControlersStack;
+@property (nonatomic, assign) NSMutableArray* viewControllersStack;
 
 
 @end

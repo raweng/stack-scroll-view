@@ -14,13 +14,13 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 
 @implementation SlideViewController
 
-@synthesize slideViews, borderViews, viewControlersStack, slideStartPosition;
+@synthesize slideViews, borderViews, viewControllersStack, slideStartPosition;
 
 -(id)init {
 	
 	if(self= [super init]) {
 		
-		viewControlersStack = [[NSMutableArray alloc] init]; 
+		viewControllersStack = [[NSMutableArray alloc] init]; 
 		borderViews = [[UIView alloc] initWithFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION - 2, -2, 2, self.view.frame.size.height)];
 		[borderViews setBackgroundColor:[UIColor clearColor]];
 		UIView* verticalLineView1 = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, borderViews.frame.size.height)] autorelease];
@@ -299,13 +299,13 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 						//Drop Card View Animation
 						if ((((UIView*)[[slideViews subviews] objectAtIndex:0]).frame.origin.x+200) >= (self.view.frame.origin.x + ((UIView*)[[slideViews subviews] objectAtIndex:0]).frame.size.width)) {
 							
-							NSInteger viewControllerCount = [viewControlersStack count];
+							NSInteger viewControllerCount = [viewControllersStack count];
 							
 							if (viewControllerCount > 1) {
 								for (int i = 1; i < viewControllerCount; i++) {
 									viewXPosition = self.view.frame.size.width - [slideViews viewWithTag:i].frame.size.width;
 									[[slideViews viewWithTag:i] removeFromSuperview];
-									[viewControlersStack removeLastObject];
+									[viewControllersStack removeLastObject];
 								}
 								
 								[[borderViews viewWithTag:3] setHidden:TRUE];
@@ -403,12 +403,12 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 						
 						//Drop Card View Animation
 						if ((((UIView*)[[slideViews subviews] objectAtIndex:0]).frame.origin.x+200) >= (self.view.frame.origin.x + ((UIView*)[[slideViews subviews] objectAtIndex:0]).frame.size.width)) {
-							NSInteger viewControllerCount = [viewControlersStack count];
+							NSInteger viewControllerCount = [viewControllersStack count];
 							if (viewControllerCount > 1) {
 								for (int i = 1; i < viewControllerCount; i++) {
 									viewXPosition = self.view.frame.size.width - [slideViews viewWithTag:i].frame.size.width;
 									[[slideViews viewWithTag:i] removeFromSuperview];
-									[viewControlersStack removeLastObject];
+									[viewControllersStack removeLastObject];
 								}
 								[[borderViews viewWithTag:3] setHidden:TRUE];
 								[[borderViews viewWithTag:2] setHidden:TRUE];
@@ -637,30 +637,30 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 		[[borderViews viewWithTag:3] setHidden:TRUE];
 		[[borderViews viewWithTag:2] setHidden:TRUE];
 		[[borderViews viewWithTag:1] setHidden:TRUE];
-		[viewControlersStack removeAllObjects];
+		[viewControllersStack removeAllObjects];
 		isContentSizeForMainViewSet = TRUE;
 	}
 	
 	
-	if([viewControlersStack count] > 1){
-		NSInteger indexOfViewController = [viewControlersStack
+	if([viewControllersStack count] > 1){
+		NSInteger indexOfViewController = [viewControllersStack
 										   indexOfObject:invokeByController]+1;
 		
 		if ([invokeByController parentViewController]) {
-			indexOfViewController = [viewControlersStack
+			indexOfViewController = [viewControllersStack
 									 indexOfObject:[invokeByController parentViewController]]+1;
 		}
 		
-		NSInteger viewControllerCount = [viewControlersStack count];
+		NSInteger viewControllerCount = [viewControllersStack count];
 		for (int i = indexOfViewController; i < viewControllerCount; i++) {
 			[[slideViews viewWithTag:i] removeFromSuperview];
-			[viewControlersStack removeObjectAtIndex:indexOfViewController];
+			[viewControllersStack removeObjectAtIndex:indexOfViewController];
 			viewXPosition = self.view.frame.size.width - [controller view].frame.size.width;
 		}
-	}else if([viewControlersStack count] == 0) {
+	}else if([viewControllersStack count] == 0) {
 		for (UIView* subview in [slideViews subviews]) {
 			[subview removeFromSuperview];
-		}		[viewControlersStack removeAllObjects];
+		}		[viewControllersStack removeAllObjects];
 		[[borderViews viewWithTag:3] setHidden:TRUE];
 		[[borderViews viewWithTag:2] setHidden:TRUE];
 		[[borderViews viewWithTag:1] setHidden:TRUE];
@@ -676,7 +676,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 		}
 	}
 	
-	[viewControlersStack addObject:controller];
+	[viewControllersStack addObject:controller];
 	if (invokeByController !=nil) {
 		viewXPosition = invokeByController.view.frame.origin.x + invokeByController.view.frame.size.width;			
 	}
@@ -686,7 +686,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 	}
 	[[controller view] setFrame:CGRectMake(viewXPosition, 0, [controller view].frame.size.width, self.view.frame.size.height)];
 	
-	[controller.view setTag:([viewControlersStack count]-1)];
+	[controller.view setTag:([viewControllersStack count]-1)];
 	[controller viewWillAppear:FALSE];
 	[controller viewDidAppear:FALSE];
 	[slideViews addSubview:[controller view]];
@@ -759,7 +759,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 
 - (void)viewDidUnload {
 	[super viewDidUnload];
-	for (UIViewController* subController in viewControlersStack) {
+	for (UIViewController* subController in viewControllersStack) {
 		[subController viewDidUnload];
 	}
 }
@@ -777,7 +777,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 
 -(void) willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
 	BOOL isViewOutOfScreen = FALSE; 
-	for (UIViewController* subController in viewControlersStack) {
+	for (UIViewController* subController in viewControllersStack) {
 		if (viewAtRight != nil && [viewAtRight isEqual:subController.view]) {
 			if (viewAtRight.frame.origin.x + viewAtRight.frame.size.width <= self.view.frame.size.width) {
 				[subController.view setFrame:CGRectMake(self.view.frame.size.width - subController.view.frame.size.width, subController.view.frame.origin.y, subController.view.frame.size.width, self.view.frame.size.height)];
@@ -815,7 +815,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 		}
 		
 	}
-	for (UIViewController* subController in viewControlersStack) {
+	for (UIViewController* subController in viewControllersStack) {
 		[subController willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration]; 		
 		if (!((viewAtRight != nil && [viewAtRight isEqual:subController.view]) || (viewAtLeft != nil && [viewAtLeft isEqual:subController.view]) || (viewAtLeft2 != nil && [viewAtLeft2 isEqual:subController.view]))) {
 			[[subController view] setHidden:TRUE];		
@@ -826,7 +826,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 }
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {	
-	for (UIViewController* subController in viewControlersStack) {
+	for (UIViewController* subController in viewControllersStack) {
 		[subController didRotateFromInterfaceOrientation:fromInterfaceOrientation];                
 	}
 	if (viewAtLeft !=nil) {
@@ -842,7 +842,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 
 - (void)dealloc {
 	[slideViews release];
-	[viewControlersStack release];
+	[viewControllersStack release];
     [super dealloc];
 }
 
