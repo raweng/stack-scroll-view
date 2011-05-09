@@ -47,8 +47,7 @@ parameter:
 
 - invokeByController:  object of a controller from where it has been invoked
 
-- atFirstPosition : 	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in Sliding-Panel will be removed)
-
+- atFirstPosition :	set this to TRUE/YES if you need to place this controller's view at very first position (Note: all the other view in Sliding-Panel will be removed)
 			set this to FALSE/NO if you need to place this controller's view in Slide hierarchy
 
 
