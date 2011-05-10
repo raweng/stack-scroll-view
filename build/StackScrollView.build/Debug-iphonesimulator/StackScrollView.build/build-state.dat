@@ -1,0 +1,395 @@
+TStackScrollView
+v7
+r0
+t326699984.651245
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/Info.plist" StackScrollView-Info.plist
+cCompileXIB "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/StackScrollView.app/backgroundImage_repeat.png backgroundImage_repeat.png
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/main.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewAppDelegate.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/RootViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/MenuViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/DataViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/UIViewWithShadow.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView" normal i386
+cGenerateDSYMFile "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app.dSYM" "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView"
+cTouch "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004DAE7B260000000000000110
+t1303280422
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.h
+c000000004DC7EED90000000000000189
+t1304948441
+s393
+i<UIKit/UIKit.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m
+c000000004DC7EED90000000000000CF9
+t1304948441
+s3321
+i"DataViewController.h"
+i"StackScrollViewAppDelegate.h"
+i"UIViewWithShadow.h"
+i"RootViewController.h"
+i"StackScrollViewController.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.h
+c000000004DC7EED90000000000000189
+t1304948441
+s393
+i<UIKit/UIKit.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m
+c000000004DC7EED90000000000000F48
+t1304948441
+s3912
+i"MenuViewController.h"
+i"DataViewController.h"
+i"StackScrollViewAppDelegate.h"
+i"RootViewController.h"
+i"StackScrollViewController.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.h
+c000000004DC7EED90000000000000275
+t1304948441
+s629
+i<UIKit/UIKit.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m
+c000000004DC7EED900000000000011A0
+t1304948441
+s4512
+i"RootViewController.h"
+i"MenuViewController.h"
+i"StackScrollViewController.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.h
+c000000004DC7EED9000000000000020F
+t1304948441
+s527
+i<UIKit/UIKit.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m
+c000000004DC7EED900000000000008DA
+t1304948441
+s2266
+i"StackScrollViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.h
+c000000004DC8D41A0000000000000503
+t1305007130
+s1283
+i<Foundation/Foundation.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m
+c000000004DC8D476000000000000A352
+t1305007222
+s41810
+i"StackScrollViewController.h"
+i"UIViewWithShadow.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.h
+c000000004DC7EED90000000000000101
+t1304948441
+s257
+i<Foundation/Foundation.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m
+c000000004DC7EED900000000000004CF
+t1304948441
+s1231
+i"UIViewWithShadow.h"
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib
+c000000004DC7EED90000000000004A5B
+t1304948441
+s19035
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch
+c000000004DC7EED900000000000000E6
+t1304948441
+s230
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/backgroundImage_repeat.png
+c000000004DC7EED9000000000001FC00
+t1304948441
+s130048
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app
+t1305007181
+s238
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app.dSYM
+t1305007181
+s102
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/Info.plist
+t1305007179
+s836
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/MainWindow.nib
+t1305007180
+s1540
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/PkgInfo
+t1305007179
+s8
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView
+t1305007181
+s117176
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/backgroundImage_repeat.png
+t1305007179
+s130048
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/DataViewController.o
+t1305007180
+s59596
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/MenuViewController.o
+t1305007180
+s62032
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/RootViewController.o
+t1305007180
+s55948
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollView.LinkFileList
+c000000004DC8D44B00000000000004F9
+t1305007179
+s1273
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewAppDelegate.o
+t1305007180
+s53580
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewController.o
+t1305007181
+s162996
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/UIViewWithShadow.o
+t1305007180
+s41808
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/main.o
+t1305007180
+s6364
+
+N/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m
+c000000004DC7EED9000000000000016A
+t1304948441
+s362
+i<UIKit/UIKit.h>
+
+NStackScrollView-Info.plist
+c000000004DC7EED900000000000004AA
+t1304948441
+s1194
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326699984#326699984#0(0"0(0#1#0"8634945280#0"0#
+
+CCompileXIB "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib"
+s326699979.814087
+e326699980.135506
+r1
+xCompileXIB
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib326699979#326699980#0(0"0(0#0#83"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib8641272800#674"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/MainWindow.nib" "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/StackScrollView.app/backgroundImage_repeat.png backgroundImage_repeat.png
+s326699979.814674
+e326699979.835567
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StackScrollView.app/backgroundImage_repeat.png
+xbackgroundImage_repeat.png
+lSLF07#2@31"Copy backgroundImage_repeat.png326699979#326699979#0(0"0(0#0#95"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/backgroundImage_repeat.png8639824896#588"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/backgroundImage_repeat.png" "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/DataViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.140031
+e326699980.749754
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/DataViewController.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[656] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[656] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@123"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m326699980#326699980#0(196"distcc[656] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[656] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#97"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m8641407712#2625"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/DataViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/DataViewController.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/MenuViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.138635
+e326699980.750006
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/MenuViewController.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[655] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[655] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@123"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m326699980#326699980#0(196"distcc[655] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[655] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#97"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m8642416000#2625"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/MenuViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/MenuViewController.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/RootViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.137494
+e326699980.749599
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/RootViewController.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[652] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[652] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@123"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m326699980#326699980#0(196"distcc[652] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[652] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#97"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m8643022176#2625"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/RootViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/RootViewController.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewAppDelegate.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.136675
+e326699980.716563
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewAppDelegate.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[651] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[651] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@131"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m326699980#326699980#0(196"distcc[651] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[651] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#105"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m8643721760#2641"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewAppDelegate.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewAppDelegate.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewController.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.669244
+e326699981.209706
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewController.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[710] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[710] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@130"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m326699980#326699981#0(196"distcc[710] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[710] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#104"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m8638369888#2639"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/StackScrollViewController.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollViewController.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/UIViewWithShadow.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.141631
+e326699980.669078
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/UIViewWithShadow.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[660] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[660] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@121"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m326699980#326699980#0(196"distcc[660] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[660] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#95"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m8640730432#2621"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/Classes/UIViewWithShadow.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/UIViewWithShadow.o"0#
+
+CDistributed-CompileC build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/main.o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326699980.135600
+e326699980.700579
+r1
+xDistributed-CompileC
+xbuild/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/main.o
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+odistcc[650] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?
+odistcc[650] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally
+lSLF07#2@101"Distribute compilation of /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m326699980#326699980#0(196"distcc[650] Warning: INCLUDE_SERVER_PORT not set - did you forget to run under 'pump'?distcc[650] (dcc_build_somewhere) Warning: failed to get includes from include server, preprocessing locally0(0#0#75"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m8645987680#2589"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "--randomize Reefaq-Mohammed-Mac-Pro.local./6,lzo,cpp"    setenv DISTCC_SYSTEM "10.6.7 (10J869, i386)"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/distcc /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-generated-files.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-own-target-headers.hmap" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-all-target-headers.hmap" -iquote "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/StackScrollView-project-headers.hmap" -fpch-preprocess "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/include" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources/i386" "-I/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/DerivedSources" -include "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView_Prefix.pch" -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/main.m" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/main.o"0#
+
+CGenerateDSYMFile "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app.dSYM" "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView"
+s326699981.486449
+e326699981.555714
+r1
+xGenerateDSYMFile
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app.dSYM
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/StackScrollView.app.dSYM build/Debug-iphonesimulator/StackScrollView.app/StackScrollView326699981#326699981#0(0"0(0#0#132"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView8646003744#503"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView" -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app.dSYM"0#
+
+CLd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView" normal i386
+s326699981.209815
+e326699981.486255
+r1
+xLd
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView
+xnormal
+xi386
+lSLF07#2@137"Link /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView326699981#326699981#0(0"0(0#0#0"8643703904#1122"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" "-F/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator" -filelist "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/StackScrollView.build/Debug-iphonesimulator/StackScrollView.build/Objects-normal/i386/StackScrollView.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework QuartzCore -framework CoreGraphics -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/StackScrollView"0#
+
+CProcessInfoPlistFile "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/Info.plist" StackScrollView-Info.plist
+s326699979.810154
+e326699979.814023
+r1
+xProcessInfoPlistFile
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/Info.plist
+xStackScrollView-Info.plist
+lSLF07#2@34"Process StackScrollView-Info.plist326699979#326699979#0(0"0(0#0#95"/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/StackScrollView-Info.plist8645099360#599"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility StackScrollView-Info.plist -genpkginfo "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app/Info.plist"0#
+
+CTouch "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app"
+s326699981.555798
+e326699981.558033
+r1
+xTouch
+x/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app
+lSLF07#2@122"Touch /Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app326699981#326699981#0(0"0(0#0#0"8645765120#350"    cd "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Reefaq Mohammed/Desktop/Reefaq/GITHUB project/StackScrollView/build/Debug-iphonesimulator/StackScrollView.app"0#
+
