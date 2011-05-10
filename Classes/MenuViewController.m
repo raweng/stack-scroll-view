@@ -28,8 +28,13 @@
 		[_tableView setDataSource:self];
 		[_tableView setBackgroundColor:[UIColor clearColor]];
 		_tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
-				
 		[self.view addSubview:_tableView];
+		
+		UIView* verticalLineView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width, -5, 1, self.view.frame.size.height)];
+		[verticalLineView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
+		[verticalLineView setBackgroundColor:[UIColor whiteColor]];
+		[self.view addSubview:verticalLineView];
+		[self.view bringSubviewToFront:verticalLineView];	
 		
 	}
     return self;
@@ -43,13 +48,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	if (![self.view viewWithTag:99]) {
-		UIView* verticalLineView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width, 0, 1, self.view.frame.size.height+10)];
-		[verticalLineView setBackgroundColor:[UIColor whiteColor]];
-		[verticalLineView setTag:99];
-		[self.view addSubview:verticalLineView];
-		[self.view bringSubviewToFront:[self.view viewWithTag:99]];		
-	}
 }
 
 
@@ -59,7 +57,6 @@
 
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
 	[super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
-	[[[self view] viewWithTag:99] setFrame:CGRectMake([self view].frame.size.width, -5, 1, [self view].frame.size.height+10)];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
