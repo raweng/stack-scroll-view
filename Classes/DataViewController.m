@@ -8,7 +8,6 @@
 
 #import "DataViewController.h"
 #import "StackScrollViewAppDelegate.h"
-#import "UIViewWithShadow.h"
 #import "RootViewController.h"
 #import "StackScrollViewController.h"
 
@@ -28,13 +27,6 @@
 		[_tableView setBackgroundColor:[UIColor clearColor]];
 		_tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
 		[self.view addSubview:_tableView];
-		
-		UIViewWithShadow* verticalLineView = [[[UIViewWithShadow alloc] initWithFrame:CGRectMake(-40, 0, 40 , self.view.frame.size.height+10)] autorelease];
-		[verticalLineView setBackgroundColor:[UIColor clearColor]];
-		[verticalLineView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
-		[verticalLineView setClipsToBounds:NO];
-		[self.view addSubview:verticalLineView];
-		
 	}
     return self;
 }

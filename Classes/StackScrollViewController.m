@@ -668,12 +668,12 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 	
 	[controller.view setBackgroundColor:[UIColor whiteColor]];
 	
-	if ([slideViews.subviews count] == 0) {
-		for (UIView* shadowView in [controller.view subviews]) {
-			if([shadowView isKindOfClass:[UIViewWithShadow class]]){
-				[shadowView removeFromSuperview];
-			}
-		}
+	if ([slideViews.subviews count] != 0) {
+		UIViewWithShadow* verticalLineView = [[[UIViewWithShadow alloc] initWithFrame:CGRectMake(-40, 0, 40 , self.view.frame.size.height)] autorelease];
+		[verticalLineView setBackgroundColor:[UIColor clearColor]];
+		[verticalLineView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
+		[verticalLineView setClipsToBounds:NO];
+		[controller.view addSubview:verticalLineView];
 	}
 	
 	[viewControllersStack addObject:controller];
