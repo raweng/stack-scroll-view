@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2752544413790ADD005E9019 /* StackScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752544313790ADD005E9019 /* StackScrollViewController.m */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		312FC87F1380DA88003610C2 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 312FC87E1380DA88003610C2 /* License */; };
 		C12A8A50131776B500E7CA88 /* UIViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A8A4F131776B500E7CA88 /* UIViewWithShadow.m */; };
 		C1842AEF1316641600D1538C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AEE1316641600D1538C /* RootViewController.m */; };
 		C1842AF9131664DD00D1538C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1842AF8131664DD00D1538C /* MenuViewController.m */; };
@@ -32,6 +33,7 @@
 		2752544313790ADD005E9019 /* StackScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackScrollViewController.m; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312FC87E1380DA88003610C2 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* StackScrollView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackScrollView_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* StackScrollView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "StackScrollView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C12A8A4E131776B500E7CA88 /* UIViewWithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewWithShadow.h; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				312FC87E1380DA88003610C2 /* License */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				C1D438971317D30A00D5EE69 /* backgroundImage_repeat.png in Resources */,
+				312FC87F1380DA88003610C2 /* License in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
