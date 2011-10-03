@@ -56,7 +56,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
 	rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
-	[self.window addSubview:rootViewController.view];
 	[self.window setBackgroundColor:[UIColor clearColor]];
     [self.window addSubview:rootViewController.view];
     [self.window makeKeyAndVisible];
