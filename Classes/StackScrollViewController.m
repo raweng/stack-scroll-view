@@ -368,7 +368,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 				else if (viewAtLeft.frame.origin.x == SLIDE_VIEWS_MINUS_X_POSITION && viewAtRight.frame.origin.x + viewAtRight.frame.size.width > self.view.frame.size.width) {
 					[UIView beginAnimations:nil context:NULL];
 					[UIView setAnimationDuration:0.2];
-					[UIView setAnimationTransition:UIViewAnimationCurveEaseInOut forView:nil cache:YES];
+					[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:nil cache:YES];
 					[UIView setAnimationBeginsFromCurrentState:YES];
 					[viewAtRight setFrame:CGRectMake(self.view.frame.size.width - viewAtRight.frame.size.width, viewAtRight.frame.origin.y, viewAtRight.frame.size.width,viewAtRight.frame.size.height)];						
 					[UIView commitAnimations];						
@@ -385,7 +385,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 				}
 				else if (viewAtLeft.frame.origin.x > SLIDE_VIEWS_MINUS_X_POSITION) {
 					[UIView setAnimationDuration:0.2];
-					[UIView setAnimationTransition:UIViewAnimationCurveEaseInOut forView:nil cache:YES];
+					[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:nil cache:YES];
 					[UIView setAnimationBeginsFromCurrentState:YES];
 					if ((viewAtLeft.frame.origin.x + viewAtLeft.frame.size.width > self.view.frame.size.width) && viewAtLeft.frame.origin.x < (self.view.frame.size.width - (viewAtLeft.frame.size.width)/2)) {
 						[UIView beginAnimations:@"LEFT-WITH-LEFT" context:nil];
@@ -522,109 +522,109 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 		[viewAtRight.layer removeAllAnimations];
 		[viewAtRight2.layer removeAllAnimations];
 		[viewAtLeft2.layer removeAllAnimations];
-		if ([animationID isEqualToString:@"LEFT-WITH-LEFT"] && viewAtLeft2.frame.origin.x == SLIDE_VIEWS_MINUS_X_POSITION) {
-			CABasicAnimation *bounceAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimation.duration = 0.2;
-			bounceAnimation.fromValue = [NSValue valueWithCGPoint:viewAtLeft.center];
-			bounceAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtLeft.center.x -10, viewAtLeft.center.y)];
-			bounceAnimation.repeatCount = 0;
-			bounceAnimation.autoreverses = YES;
-			bounceAnimation.fillMode = kCAFillModeBackwards;
-			bounceAnimation.removedOnCompletion = YES;
-			bounceAnimation.additive = NO;
-			[viewAtLeft.layer addAnimation:bounceAnimation forKey:@"bounceAnimation"];
-			
-			[viewAtRight setHidden:FALSE];
-			CABasicAnimation *bounceAnimationForRight = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimationForRight.duration = 0.2;
-			bounceAnimationForRight.fromValue = [NSValue valueWithCGPoint:viewAtRight.center];
-			bounceAnimationForRight.toValue = [NSValue valueWithCGPoint:CGPointMake((viewAtRight.center.x - 20), viewAtRight.center.y)];
-			bounceAnimationForRight.repeatCount = 0;
-			bounceAnimationForRight.autoreverses = YES;
-			bounceAnimationForRight.fillMode = kCAFillModeBackwards;
-			bounceAnimationForRight.removedOnCompletion = YES;
-			bounceAnimationForRight.additive = NO;
-			[viewAtRight.layer addAnimation:bounceAnimationForRight forKey:@"bounceAnimationRight"];
-		}else if ([animationID isEqualToString:@"LEFT-WITH-RIGHT"]  && viewAtLeft.frame.origin.x == SLIDE_VIEWS_MINUS_X_POSITION) {
-			CABasicAnimation *bounceAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimation.duration = 0.2;
-			bounceAnimation.fromValue = [NSValue valueWithCGPoint:viewAtRight.center];
-			bounceAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtRight.center.x -10, viewAtRight.center.y)];
-			bounceAnimation.repeatCount = 0;
-			bounceAnimation.autoreverses = YES;
-			bounceAnimation.fillMode = kCAFillModeBackwards;
-			bounceAnimation.removedOnCompletion = YES;
-			bounceAnimation.additive = NO;
-			[viewAtRight.layer addAnimation:bounceAnimation forKey:@"bounceAnimation"];
-			
-			
-			[viewAtRight2 setHidden:FALSE];
-			CABasicAnimation *bounceAnimationForRight2 = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimationForRight2.duration = 0.2;
-			bounceAnimationForRight2.fromValue = [NSValue valueWithCGPoint:viewAtRight2.center];
-			bounceAnimationForRight2.toValue = [NSValue valueWithCGPoint:CGPointMake((viewAtRight2.center.x - 20), viewAtRight2.center.y)];
-			bounceAnimationForRight2.repeatCount = 0;
-			bounceAnimationForRight2.autoreverses = YES;
-			bounceAnimationForRight2.fillMode = kCAFillModeBackwards;
-			bounceAnimationForRight2.removedOnCompletion = YES;
-			bounceAnimationForRight2.additive = NO;
-			[viewAtRight2.layer addAnimation:bounceAnimationForRight2 forKey:@"bounceAnimationRight2"];
-		}else if ([animationID isEqualToString:@"RIGHT-WITH-RIGHT"]) {
-			CABasicAnimation *bounceAnimationLeft = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimationLeft.duration = 0.2;
-			bounceAnimationLeft.fromValue = [NSValue valueWithCGPoint:viewAtLeft.center];
-			bounceAnimationLeft.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtLeft.center.x +10, viewAtLeft.center.y)];
-			bounceAnimationLeft.repeatCount = 0;
-			bounceAnimationLeft.autoreverses = YES;
-			bounceAnimationLeft.fillMode = kCAFillModeBackwards;
-			bounceAnimationLeft.removedOnCompletion = YES;
-			bounceAnimationLeft.additive = NO;
-			[viewAtLeft.layer addAnimation:bounceAnimationLeft forKey:@"bounceAnimationLeft"];
-			
-			CABasicAnimation *bounceAnimationRight = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimationRight.duration = 0.2;
-			bounceAnimationRight.fromValue = [NSValue valueWithCGPoint:viewAtRight.center];
-			bounceAnimationRight.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtRight.center.x +10, viewAtRight.center.y)];
-			bounceAnimationRight.repeatCount = 0;
-			bounceAnimationRight.autoreverses = YES;
-			bounceAnimationRight.fillMode = kCAFillModeBackwards;
-			bounceAnimationRight.removedOnCompletion = YES;
-			bounceAnimationRight.additive = NO;
-			[viewAtRight.layer addAnimation:bounceAnimationRight forKey:@"bounceAnimationRight"];
-			
-		}else if ([animationID isEqualToString:@"RIGHT-WITH-LEFT"]) {
-			CABasicAnimation *bounceAnimationLeft = [CABasicAnimation animationWithKeyPath:@"position.x"];
-			bounceAnimationLeft.duration = 0.2;
-			bounceAnimationLeft.fromValue = [NSValue valueWithCGPoint:viewAtLeft.center];
-			bounceAnimationLeft.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtLeft.center.x +10, viewAtLeft.center.y)];
-			bounceAnimationLeft.repeatCount = 0;
-			bounceAnimationLeft.autoreverses = YES;
-			bounceAnimationLeft.fillMode = kCAFillModeBackwards;
-			bounceAnimationLeft.removedOnCompletion = YES;
-			bounceAnimationLeft.additive = NO;
-			[viewAtLeft.layer addAnimation:bounceAnimationLeft forKey:@"bounceAnimationLeft"];
-			
-			if (viewAtLeft2 != nil) {
-				[viewAtLeft2 setHidden:FALSE];
-				NSInteger viewAtLeft2Position = [[slideViews subviews] indexOfObject:viewAtLeft2];
-				if (viewAtLeft2Position > 0) {
-					[((UIView*)[[slideViews subviews] objectAtIndex:viewAtLeft2Position -1]) setHidden:FALSE];
-				}
-				CABasicAnimation* bounceAnimationLeft2 = [CABasicAnimation animationWithKeyPath:@"position.x"];
-				bounceAnimationLeft2.duration = 0.2;
-				bounceAnimationLeft2.fromValue = [NSValue valueWithCGPoint:viewAtLeft2.center];
-				bounceAnimationLeft2.toValue = [NSValue valueWithCGPoint:CGPointMake(viewAtLeft2.center.x +10, viewAtLeft2.center.y)];
-				bounceAnimationLeft2.repeatCount = 0;
-				bounceAnimationLeft2.autoreverses = YES;
-				bounceAnimationLeft2.fillMode = kCAFillModeBackwards;
-				bounceAnimationLeft2.removedOnCompletion = YES;
-				bounceAnimationLeft2.additive = NO;
-				[viewAtLeft2.layer addAnimation:bounceAnimationLeft2 forKey:@"bounceAnimationviewAtLeft2"];
-				[self performSelector:@selector(callArrangeVerticalBar) withObject:nil afterDelay:0.4];
-				isBouncing = TRUE;
-			}
-			
-		}
+            if ([animationID isEqualToString:@"LEFT-WITH-LEFT"] && viewAtLeft2.frame.origin.x == SLIDE_VIEWS_MINUS_X_POSITION) {
+                CABasicAnimation *bounceAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimation.duration = 0.2;
+                bounceAnimation.fromValue = [NSNumber numberWithFloat:viewAtLeft.center.x];
+                bounceAnimation.toValue = [NSNumber numberWithFloat:viewAtLeft.center.x -10];
+                bounceAnimation.repeatCount = 0;
+                bounceAnimation.autoreverses = YES;
+                bounceAnimation.fillMode = kCAFillModeBackwards;
+                bounceAnimation.removedOnCompletion = YES;
+                bounceAnimation.additive = NO;
+                [viewAtLeft.layer addAnimation:bounceAnimation forKey:@"bounceAnimation"];
+                
+                [viewAtRight setHidden:FALSE];
+                CABasicAnimation *bounceAnimationForRight = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimationForRight.duration = 0.2;
+                bounceAnimationForRight.fromValue = [NSNumber numberWithFloat:viewAtRight.center.x];
+                bounceAnimationForRight.toValue = [NSNumber numberWithFloat:viewAtRight.center.x - 20];
+                bounceAnimationForRight.repeatCount = 0;
+                bounceAnimationForRight.autoreverses = YES;
+                bounceAnimationForRight.fillMode = kCAFillModeBackwards;
+                bounceAnimationForRight.removedOnCompletion = YES;
+                bounceAnimationForRight.additive = NO;
+                [viewAtRight.layer addAnimation:bounceAnimationForRight forKey:@"bounceAnimationRight"];
+            }else if ([animationID isEqualToString:@"LEFT-WITH-RIGHT"]  && viewAtLeft.frame.origin.x == SLIDE_VIEWS_MINUS_X_POSITION) {
+                CABasicAnimation *bounceAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimation.duration = 0.2;
+                bounceAnimation.fromValue = [NSNumber numberWithFloat:viewAtRight.center.x];
+                bounceAnimation.toValue = [NSNumber numberWithFloat:viewAtRight.center.x - 10];
+                bounceAnimation.repeatCount = 0;
+                bounceAnimation.autoreverses = YES;
+                bounceAnimation.fillMode = kCAFillModeBackwards;
+                bounceAnimation.removedOnCompletion = YES;
+                bounceAnimation.additive = NO;
+                [viewAtRight.layer addAnimation:bounceAnimation forKey:@"bounceAnimation"];
+                
+                
+                [viewAtRight2 setHidden:FALSE];
+                CABasicAnimation *bounceAnimationForRight2 = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimationForRight2.duration = 0.2;
+                bounceAnimationForRight2.fromValue = [NSNumber numberWithFloat:viewAtRight2.center.x];
+                bounceAnimationForRight2.toValue = [NSNumber numberWithFloat:viewAtRight2.center.x - 20];
+                bounceAnimationForRight2.repeatCount = 0;
+                bounceAnimationForRight2.autoreverses = YES;
+                bounceAnimationForRight2.fillMode = kCAFillModeBackwards;
+                bounceAnimationForRight2.removedOnCompletion = YES;
+                bounceAnimationForRight2.additive = NO;
+                [viewAtRight2.layer addAnimation:bounceAnimationForRight2 forKey:@"bounceAnimationRight2"];
+            }else if ([animationID isEqualToString:@"RIGHT-WITH-RIGHT"]) {
+                CABasicAnimation *bounceAnimationLeft = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimationLeft.duration = 0.2;
+                bounceAnimationLeft.fromValue = [NSNumber numberWithFloat:viewAtLeft.center.x];
+                bounceAnimationLeft.toValue = [NSNumber numberWithFloat:viewAtLeft.center.x + 10];
+                bounceAnimationLeft.repeatCount = 0;
+                bounceAnimationLeft.autoreverses = YES;
+                bounceAnimationLeft.fillMode = kCAFillModeBackwards;
+                bounceAnimationLeft.removedOnCompletion = YES;
+                bounceAnimationLeft.additive = NO;
+                [viewAtLeft.layer addAnimation:bounceAnimationLeft forKey:@"bounceAnimationLeft"];
+                
+                CABasicAnimation *bounceAnimationRight = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimationRight.duration = 0.2;
+                bounceAnimationRight.fromValue = [NSNumber numberWithFloat:viewAtRight.center.x];
+                bounceAnimationRight.toValue = [NSNumber numberWithFloat:viewAtRight.center.x + 10];
+                bounceAnimationRight.repeatCount = 0;
+                bounceAnimationRight.autoreverses = YES;
+                bounceAnimationRight.fillMode = kCAFillModeBackwards;
+                bounceAnimationRight.removedOnCompletion = YES;
+                bounceAnimationRight.additive = NO;
+                [viewAtRight.layer addAnimation:bounceAnimationRight forKey:@"bounceAnimationRight"];
+                
+            }else if ([animationID isEqualToString:@"RIGHT-WITH-LEFT"]) {
+                CABasicAnimation *bounceAnimationLeft = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                bounceAnimationLeft.duration = 0.2;
+                bounceAnimationLeft.fromValue = [NSNumber numberWithFloat:viewAtLeft.center.x];
+                bounceAnimationLeft.toValue = [NSNumber numberWithFloat:viewAtLeft.center.x + 10];
+                bounceAnimationLeft.repeatCount = 0;
+                bounceAnimationLeft.autoreverses = YES;
+                bounceAnimationLeft.fillMode = kCAFillModeBackwards;
+                bounceAnimationLeft.removedOnCompletion = YES;
+                bounceAnimationLeft.additive = NO;
+                [viewAtLeft.layer addAnimation:bounceAnimationLeft forKey:@"bounceAnimationLeft"];
+                
+                if (viewAtLeft2 != nil) {
+                    [viewAtLeft2 setHidden:FALSE];
+                    NSInteger viewAtLeft2Position = [[slideViews subviews] indexOfObject:viewAtLeft2];
+                    if (viewAtLeft2Position > 0) {
+                        [((UIView*)[[slideViews subviews] objectAtIndex:viewAtLeft2Position -1]) setHidden:FALSE];
+                    }
+                    CABasicAnimation* bounceAnimationLeft2 = [CABasicAnimation animationWithKeyPath:@"position.x"];
+                    bounceAnimationLeft2.duration = 0.2;
+                    bounceAnimationLeft2.fromValue = [NSNumber numberWithFloat:viewAtLeft2.center.x];
+                    bounceAnimationLeft2.toValue = [NSNumber numberWithFloat:viewAtLeft2.center.x + 10];
+                    bounceAnimationLeft2.repeatCount = 0;
+                    bounceAnimationLeft2.autoreverses = YES;
+                    bounceAnimationLeft2.fillMode = kCAFillModeBackwards;
+                    bounceAnimationLeft2.removedOnCompletion = YES;
+                    bounceAnimationLeft2.additive = NO;
+                    [viewAtLeft2.layer addAnimation:bounceAnimationLeft2 forKey:@"bounceAnimationviewAtLeft2"];
+                    [self performSelector:@selector(callArrangeVerticalBar) withObject:nil afterDelay:0.4];
+                    isBouncing = TRUE;
+                }
+                
+            }
 		
 	}
 	[self arrangeVerticalBar];	
@@ -734,7 +734,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 			viewAtRight2 = nil;
 			
 			[UIView beginAnimations:nil context:NULL];
-			[UIView setAnimationTransition:UIViewAnimationCurveEaseInOut forView:viewAtLeft cache:YES];	
+			[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:viewAtLeft cache:YES];	
 			[UIView setAnimationBeginsFromCurrentState:NO];	
 			[viewAtLeft setFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION, viewAtLeft.frame.origin.y, viewAtLeft.frame.size.width, viewAtLeft.frame.size.height)];
 			[viewAtRight setFrame:CGRectMake(self.view.frame.size.width - viewAtRight.frame.size.width, viewAtRight.frame.origin.y, viewAtRight.frame.size.width, viewAtRight.frame.size.height)];
@@ -743,18 +743,7 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 			
 		}else {
 			
-			if (((UIView*)[[slideViews subviews] objectAtIndex:0]).frame.origin.x > SLIDE_VIEWS_MINUS_X_POSITION) {
-				UIView* tempRight2View =[[slideViews subviews] objectAtIndex:[[slideViews subviews] count]-1];
-				[UIView beginAnimations:@"ALIGN_TO_MINIMENU" context:NULL];
-				[UIView setAnimationTransition:UIViewAnimationCurveEaseInOut forView:viewAtLeft cache:YES];	
-				[UIView setAnimationBeginsFromCurrentState:NO];				
-				[viewAtLeft setFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION, viewAtLeft.frame.origin.y, viewAtLeft.frame.size.width, viewAtLeft.frame.size.height)];
-				[viewAtRight setFrame:CGRectMake(self.view.frame.size.width - viewAtRight.frame.size.width, viewAtRight.frame.origin.y, viewAtRight.frame.size.width, viewAtRight.frame.size.height)];
-				[tempRight2View setFrame:CGRectMake(self.view.frame.size.width, tempRight2View.frame.origin.y, tempRight2View.frame.size.width, tempRight2View.frame.size.height)];
-				[UIView setAnimationDelegate:self];
-				[UIView setAnimationDidStopSelector:@selector(bounceBack:finished:context:)];
-				[UIView commitAnimations];
-			}else {
+			
 				viewAtRight = [[slideViews subviews] objectAtIndex:[[slideViews subviews] count]-1];
 				viewAtLeft = [[slideViews subviews] objectAtIndex:[[slideViews subviews] count]-2];
 				viewAtLeft2 = [[slideViews subviews] objectAtIndex:[[slideViews subviews] count]-3];
@@ -762,9 +751,13 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 				viewAtRight2 = nil;
 				
 				[UIView beginAnimations:nil context:NULL];
-				[UIView setAnimationTransition:UIViewAnimationCurveEaseInOut forView:viewAtLeft cache:YES];	
+				[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:viewAtLeft cache:YES];	
 				[UIView setAnimationBeginsFromCurrentState:NO];	
-				[viewAtLeft setFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION, viewAtLeft.frame.origin.y, viewAtLeft.frame.size.width, viewAtLeft.frame.size.height)];
+				
+                if (viewAtLeft2.frame.origin.x != SLIDE_VIEWS_MINUS_X_POSITION) {
+                    [viewAtLeft2 setFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION, viewAtLeft2.frame.origin.y, viewAtLeft2.frame.size.width, viewAtLeft2.frame.size.height)];
+                }
+                [viewAtLeft setFrame:CGRectMake(SLIDE_VIEWS_MINUS_X_POSITION, viewAtLeft.frame.origin.y, viewAtLeft.frame.size.width, viewAtLeft.frame.size.height)];
 				[viewAtRight setFrame:CGRectMake(self.view.frame.size.width - viewAtRight.frame.size.width, viewAtRight.frame.origin.y, viewAtRight.frame.size.width, viewAtRight.frame.size.height)];
 				[UIView setAnimationDelegate:self];
 				[UIView setAnimationDidStopSelector:@selector(bounceBack:finished:context:)];
@@ -773,7 +766,6 @@ const NSInteger SLIDE_VIEWS_START_X_POS = 0;
 				if([[slideViews subviews] count] > 3){
 					[[[slideViews subviews] objectAtIndex:[[slideViews subviews] count]-4] setHidden:TRUE];		
 				}
-			}
 			
 			
 		}
