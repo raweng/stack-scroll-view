@@ -57,14 +57,19 @@
 		[_tableView setDelegate:self];
 		[_tableView setDataSource:self];
 		[_tableView setBackgroundColor:[UIColor clearColor]];
-		_tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
+        
+        UIView* footerView =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
+		_tableView.tableFooterView = footerView;
+        [footerView release];
+        
 		[self.view addSubview:_tableView];
 		
 		UIView* verticalLineView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width, -5, 1, self.view.frame.size.height)];
 		[verticalLineView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
 		[verticalLineView setBackgroundColor:[UIColor whiteColor]];
 		[self.view addSubview:verticalLineView];
-		[self.view bringSubviewToFront:verticalLineView];	
+		[self.view bringSubviewToFront:verticalLineView];
+        [verticalLineView release];
 		
 	}
     return self;
@@ -153,6 +158,7 @@
 
 
 - (void)dealloc {
+    [_tableView release];
     [super dealloc];
 }
 

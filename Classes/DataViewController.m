@@ -54,7 +54,11 @@
 		_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
 		[_tableView setDelegate:self];
 		[_tableView setDataSource:self];
-		_tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
+
+        UIView* footerView =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
+		_tableView.tableFooterView = footerView;
+        [footerView release];
+        
 		[_tableView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
 		[self.view addSubview:_tableView];
 	}
