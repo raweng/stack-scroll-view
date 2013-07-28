@@ -35,7 +35,7 @@
 //  Created by Reefaq Mohammed Mac Pro on 5/10/11.
 //  Copyright 2011 raw engineering. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 
@@ -70,10 +70,10 @@
 - (void) addViewInSlider:(UIViewController*)controller invokeByController:(UIViewController*)invokeByController isStackStartView:(BOOL)isStackStartView;
 - (void)bounceBack:(NSString*)animationID finished:(NSNumber*)finished context:(void*)context;
 
-@property (nonatomic, retain) UIView* slideViews;
-@property (nonatomic, retain) UIView* borderViews;
+@property (nonatomic, strong) UIView* slideViews;
+@property (nonatomic, strong) UIView* borderViews;
 @property (nonatomic, assign) CGFloat slideStartPosition;
-@property (nonatomic, assign) NSMutableArray* viewControllersStack;
+@property (nonatomic) NSMutableArray* viewControllersStack;
 
 
 

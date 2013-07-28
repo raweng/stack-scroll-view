@@ -54,8 +54,8 @@
 	
 }
 
-@property (nonatomic, retain) MenuViewController* menuViewController;
-@property (nonatomic, retain) StackScrollViewController* stackScrollViewController;
+@property (nonatomic, strong) MenuViewController* menuViewController;
+@property (nonatomic, strong) StackScrollViewController* stackScrollViewController;
 
 
 @end

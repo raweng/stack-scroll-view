@@ -60,7 +60,6 @@
         
         UIView* footerView =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
 		_tableView.tableFooterView = footerView;
-        [footerView release];
         
 		[self.view addSubview:_tableView];
 		
@@ -69,7 +68,6 @@
 		[verticalLineView setBackgroundColor:[UIColor whiteColor]];
 		[self.view addSubview:verticalLineView];
 		[self.view bringSubviewToFront:verticalLineView];
-        [verticalLineView release];
 		
 	}
     return self;
@@ -121,8 +119,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-		UIView* bgView = [[[UIView alloc] init] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+		UIView* bgView = [[UIView alloc] init];
 		[bgView setBackgroundColor:[UIColor colorWithWhite:2 alpha:0.2]];
 		[cell setSelectedBackgroundView:bgView];
     }
@@ -142,7 +140,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     DataViewController *dataViewController = [[DataViewController alloc] initWithFrame:CGRectMake(0, 0, 477, self.view.frame.size.height)];
 	[[StackScrollViewAppDelegate instance].rootViewController.stackScrollViewController addViewInSlider:dataViewController invokeByController:self isStackStartView:TRUE];
-	[dataViewController release];
 }
 
 
@@ -157,10 +154,6 @@
 }
 
 
-- (void)dealloc {
-    [_tableView release];
-    [super dealloc];
-}
 
 
 @end
